@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+.design-model-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto; 
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.design-model-container .map-container {
+    margin-right: 40px;
+}
+
+
+.panel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-slider {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.panel-slider h3 {
+    font-size: 18px;
+}
+
+
+.data-item1, .data-item2, .data-item3, .data-item4 h3, .data-item5 h3  {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: auto;  
+}
+
+.data-item1 h2, .data-item2 h2, .data-item3 h2, .data-item4 h3, .data-item5 h3  {
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+    font-size: 20px; /* Your desired font size */
+    letter-spacing: 2px;
+}
+
+.data-item1 h3, .data-item2 h3, .data-item3 h3, .data-item4 h3, .data-item5 h3 {
+    margin-left: 20px;
+    font-family: 'Lora', serif;
+    font-size: 20px; /* Your desired font size */
+    letter-spacing: 2px;
+}
+
+.data-item1 h3 {
+    color:blue;
+}
+
+.data-item2 h3 {
+    color:rgb(255, 0, 187);
+}
+
+.data-item3 h3 {
+    color:rgb(255, 136, 0);
+}
+
+.data-item4 h3 {
+    color:rgb(0, 0, 255);
+}
+
+.data-item5 h3 {
+    color:purple;
+}
+
+
+
+.sub-title h2 {
+    font-family: 'Lora', serif;
+    font-size: 28px; /* Your desired font size */
+    margin-left: 15%;
+}
+
+
+
+.optimization-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto; 
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.button-container {
+    margin-top: 15px;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+
+
+.length {
+    font-size: 20px; /* Your desired font size */
+    margin-left: 100px;
+}
+
+.width {
+    margin-left: 500px;
+    font-size: 20px; /* Your desired font size */
+    margin-top: -200px;
+}
+
+
+.ns {
+    margin-left: 60px;
+    font-size: 20px; /* Your desired font size */
+    margin-top: 130px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    color: black;
+    font-family: 'Lora', serif;
+
+    align-items: center;
+}
+
+
+.navbar ul {
+    margin-right: 1.5%;
+    font-size: 18px;
+
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  }

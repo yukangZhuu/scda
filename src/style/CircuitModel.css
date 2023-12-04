@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+.model-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto; 
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.curve-container {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+
+.slider {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-bottom: -5px;
+}
+
+.slider h3 {
+    font-size: 18px;
+}
+
+.maxValue-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maxValue-container p{
+    margin-left: 10px;
+    font-family: 'Lora', serif;
+    font-size: 21px; /* Your desired font size */
+    letter-spacing: 2px;
+}
+
+.maxValue-container p {
+    margin-left: 10px;
+    font-family: 'Lora', serif;
+    font-size: 21px; /* Your desired font size */
+    letter-spacing: 2px;
+}
+
+.maxValue-container p b:nth-child(1){
+    color: blue;
+}
+
+.maxValue-container p b:nth-child(2){
+    color: rgb(255, 0, 0);
+}
+
+.maxValue-container p b:nth-child(3){
+    color: rgb(255, 0, 0);
+}
+
+.eff {
+    color:blueviolet;
+}

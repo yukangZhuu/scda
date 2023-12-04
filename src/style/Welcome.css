@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+.welcome {
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-family: 'Lora', serif;
+    font-size: 55px;
+    margin-top: -25px;
+    margin-bottom: -10px;
+    margin-right: 11%;
+
+}
+
+.welcome h2 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.welcome h3 {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+}
+
+.authors-container {
+    display: flex;
+    justify-content: center;
+}
+
+.author-container {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: -25px;
+}
+
+.author-container h4{
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: rgb(102, 102, 102)
+}
+
+.author-container :first-child {
+    margin-bottom: -15px;
+}
+
+.github-icon-container h4 {
+    margin-top: -1px;
+}
+
+.welcome-content-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Adjust the space between the image and text */
+    margin-top: 20px; /* Adjust the space under the title */
+}
+  
+.welcome-content-image {
+    width: 240px; /* Adjust the image size as needed */
+    height: auto;
+    margin-bottom: -50px;
+}
+  
+.welcome-content-text {
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 60px;
+}
+
+
+.modules-container {
+    margin-top: 70px;
+}
+
+
+.modules-container h4{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    margin-top: 0px
+}

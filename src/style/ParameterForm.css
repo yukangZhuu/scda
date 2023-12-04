@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+.parameterForm {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto; 
+    margin-top: 20px;
+}
+
+.form-container {
+    margin: 30px;
+    font-size: 10px;
+}
+
+.form-container .ant-form-item-label label {
+    font-family: 'Lora', serif;
+    font-weight: bold; /* Your desired font weight */
+    font-size: 18px; /* Your desired font size */
+}
+
+.parameterForm h2 {
+    font-family: 'Lora', serif;
+    font-weight: bold; /* Your desired font weight */
+    font-size: 32px; /* Your desired font size */
+    margin-right: 50px;
+}
